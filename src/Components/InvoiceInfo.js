@@ -13,7 +13,7 @@ const InvoiceInfo = () => {
         </div>
       </div>
       <div>
-        <ul className="flex w-[100%] bg-[#ff5c5c] rounded-tl-[9px] rounded-tr-[9px]">
+        <ul className="flex text w-[100%] bg-[#ff5c5c] rounded-tl-[9px] rounded-tr-[9px]">
           <li className="w-[10%] p-[10px] text-center">No.</li>
           <li className="w-[25%] p-[10px] text-center ">Invoice Details</li>
           <li className="w-[25%] p-[10px] text-center">Invoice Date </li>
