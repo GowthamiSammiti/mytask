@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  box-sizing: border-box;
+  font-family: "Albert Sans", sans-serif !important;
+  background: #ddd7d6;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.gradient1 {
+  background: rgb(252, 206, 183);
+  background: linear-gradient(
+    100deg,
+    rgba(252, 206, 183, 1) 0%,
+    rgba(245, 163, 147, 1) 35%,
+    rgba(241, 134, 123, 1) 100%
+  );
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.gradient2 {
+  background: rgb(246, 171, 153);
+  background: linear-gradient(
+    100deg,
+    rgba(246, 171, 153, 1) 0%,
+    rgba(240, 131, 122, 1) 35%,
+    rgba(237, 109, 101, 1) 100%
+  );
 }
-
-.App-link {
-  color: #61dafb;
+.gradient3 {
+  background: rgb(252, 206, 183);
+  background: linear-gradient(
+    100deg,
+    rgba(252, 206, 183, 1) 0%,
+    rgba(245, 163, 147, 1) 35%,
+    rgba(241, 134, 123, 1) 100%
+  );
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input:focus {
+  outline: none;
 }
